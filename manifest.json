@@ -1,0 +1,13 @@
+{
+    "driverId": "mickyngub.game-icons",
+    "driverName": "Game Icons",
+    "driverVersion": "1.0.0",
+    "description": "Over 4,000 game icons for tabletop and game boards: swords, shields, potions, monsters, dice, cards, treasure and places. Pick a category or search everything, even d20 or loot, then drag an icon onto the board or click to add it in view. Choose Plain, Tile or Token to make map markers and counters, pick any colour, add a name label, and the icons stay sharp when zoomed. Built for game masters, RPG players, board-game designers and storytellers.",
+    "icon": "icon.png",
+    "main": "main.js",
+    "permissions": [
+        "dom",
+        "scene",
+        "storage"
+    ]
+}
