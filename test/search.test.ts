@@ -41,10 +41,10 @@ test("search terms are trimmed, lower-cased and split on spaces", () => {
     assert.deepEqual(searchTerms("   "), []);
 });
 
-test("d20 finds the twenty-sided die first, and loot finds chests", () => {
+test("d20 finds the die showing twenty first, and loot finds chests", () => {
     const all = ICONS.map(searchEntry);
     const top = (query: string) => rank(all, searchTerms(query))[0]?.icon.name;
-    assert.match(top("d20") ?? "", /^dice-twenty-faces-/);
+    assert.equal(top("d20"), "dice-twenty-faces-twenty");
     assert.equal(top("crossed swords"), "crossed-swords");
     assert.ok(
         rank(all, searchTerms("loot"))

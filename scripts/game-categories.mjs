@@ -1875,7 +1875,8 @@ export const MATCH_ORDER = [
 
 // Words gamers search for that the icon names never use.
 export const SYNONYMS = [
-    { words: ["twenty-faces"], keywords: "d20 icosahedron" },
+    { words: ["twenty-faces-twenty"], keywords: "d20" },
+    { words: ["twenty-faces"], keywords: "icosahedron" },
     { words: ["eight-faces"], keywords: "d8" },
     { words: ["d4"], keywords: "d4" },
     { words: ["d10"], keywords: "d10" },
