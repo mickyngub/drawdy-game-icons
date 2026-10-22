@@ -1,38 +1,40 @@
-# Game Icons
+# Game Icons ⚔(•̀ᴗ•́)و
 
-Over 4,000 game icons, one drag away from your Drawdy board: swords and shields, potions and spells, monsters, heroes, dice, cards, treasure and places. Turn a board into a dungeon map, an initiative tracker or a loot table in minutes.
+**roll out the map.**
 
-## What it's for
+Over 4,000 game icons: swords and shields, potions and spells, monsters, heroes, dice, cards, treasure and places. Turn a board into a dungeon map, an initiative tracker or a loot table in minutes ✧
 
-- **Tabletop and RPG sessions**: mark monsters, heroes, traps and treasure on a map, or make tokens for a battle grid.
-- **Board-game and video-game design**: sketch cards, resources, abilities and level layouts with one consistent icon style.
-- **Stories and campaigns**: plan quests, factions and places with a picture next to every note.
+![Choosing red Tokens in Game Icons and dragging a dragon and crossed swords onto a Drawdy board, then orange Tiles for a health potion and a d20](https://raw.githubusercontent.com/mickyngub/drawdy-game-icons/main/docs/media/game-icons.gif)
 
-## How to use
+---
 
-1. Click the **Game Icons** button on the right of the board.
-2. Pick a category: **All**, **Weapons**, **Armour & shields**, **Magic & potions**, **Monsters**, **Characters**, **Animals & nature**, **Dice & cards**, **Treasure & items**, **Places & buildings**, **Food & drink**, **Sci-fi & vehicles** or **Symbols & effects**. Or type in the search box; press `/` to jump to it. Gamer words work too, such as d20, hp, mana or loot.
-3. Drag an icon onto the board and let go where you want it. Or click it to add it in the middle of your view; more clicks line icons up in rows instead of stacking them.
-4. In the search box, press Enter to add the top result.
+## let's play ٩(◕‿◕)۶
 
-## Options
+1. Click the **d20** in the extension rail.
+2. Search, like *dragon*, *sword*, or gamer words such as *d20*, *hp*, *mana* and *loot*, or pick a category: Weapons, Monsters, Magic & potions, Dice & cards and more. Press `/` to jump to search.
+3. Drag an icon onto the board. Or click it to add it in the middle of your view; more clicks line up in a row.
+4. Press **Enter** in the search box to add the top result.
 
-- **Size**: S, M, L or XL, from 32 to 256 board units.
-- **Style**: **Plain** draws just the icon. **Tile** puts it on a rounded square and **Token** on a circle, good for map markers and counters.
-- **Colour**: Ink (the board's foreground colour), four Drawdy colours, or any colour you pick. With Tile and Token the colour fills the shape and the icon is cut out in the board's background colour.
-- **Label**: also add the icon's name, centred under it and grouped with the icon so they move together.
+> (・_・;) **icons still loading?** They download as you scroll, so give a slow connection a second.
 
-## Tips
+---
 
-- Your last 12 icons stay in a **Recent** row, and the palette remembers your options.
-- Icons are vector images, so they stay sharp however far you zoom in.
+## make it yours (｡•̀ᴗ-)✧
 
-## Privacy
+- **Plain**, **Tile** or **Token**: just the icon, or cut out of a rounded square or a circle, made for map markers and counters.
+- **Colour**: ink, four Drawdy colours, or any colour you pick. Use one colour per team or faction.
+- **Size**: S, M, L or XL.
+- **Label**: add the icon's name underneath, grouped so they move together.
 
-- The icons download from the Iconify API as you scroll. Nothing you draw or type is sent anywhere.
-- Your recent icons and options are saved in this browser, so they are the same on every board you open here.
+---
 
-## Credits and licence
+## little things to try (っ˘ω˘ς )
 
-- Icons by Lorc, Delapouite and contributors at [game-icons.net](https://game-icons.net), licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), served by [Iconify](https://iconify.design).
-- The extension's code is [MIT](https://github.com/mickyngub/drawdy-game-icons/blob/main/LICENSE). Building it yourself? See [DEVELOPMENT.md](https://github.com/mickyngub/drawdy-game-icons/blob/main/DEVELOPMENT.md).
+- A battle grid: red Tokens for monsters, blue for heroes.
+- An initiative tracker, one Tile per player, dragged into turn order.
+- A loot table with chests, coins and potions.
+- Your last 12 icons wait in **Recent** for the next session.
+
+---
+
+**the small print**: icons download from the Iconify API as you scroll; nothing you draw or type leaves your board. Your recent icons and options stay in this browser. Icons by Lorc, Delapouite and contributors at [game-icons.net](https://game-icons.net), licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Code [MIT](https://github.com/mickyngub/drawdy-game-icons/blob/main/LICENSE); building it yourself? See [DEVELOPMENT.md](https://github.com/mickyngub/drawdy-game-icons/blob/main/DEVELOPMENT.md).
