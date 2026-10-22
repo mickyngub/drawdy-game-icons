@@ -80,7 +80,6 @@ let options: PlaceOptions = {
     label: false,
 };
 let searchTimer: ReturnType<typeof setTimeout> | null = null;
-let chipsTimer: ReturnType<typeof setTimeout> | null = null;
 
 const observer = new IntersectionObserver(
     (seen) => {
@@ -366,10 +365,11 @@ function renderChips(): void {
         }
     }
     for (const chip of chipsEl.querySelectorAll<HTMLButtonElement>("button")) {
-        chip.setAttribute(
-            "aria-pressed",
-            String(chip.dataset.category === category)
-        );
+        const selected = chip.dataset.category === category;
+        chip.setAttribute("aria-pressed", String(selected));
+        if (selected) {
+            chip.scrollIntoView({ inline: "nearest", block: "nearest" });
+        }
     }
 }
 
@@ -496,15 +496,6 @@ document.addEventListener("keydown", (event) => {
     }
     event.preventDefault();
     searchEl.focus();
-});
-
-chipsEl.addEventListener("scroll", () => {
-    chipsEl.dataset.scrolling = "true";
-    if (chipsTimer !== null) clearTimeout(chipsTimer);
-    chipsTimer = setTimeout(() => {
-        chipsEl.dataset.scrolling = "false";
-        chipsTimer = null;
-    }, 800);
 });
 
 chipsEl.addEventListener(
