@@ -1,7 +1,7 @@
 {
     "driverId": "mickyngub.game-icons",
     "driverName": "Game Icons",
-    "driverVersion": "1.0.1",
+    "driverVersion": "1.0.2",
     "description": "Roll out the map. Over 4,000 game icons (swords, dragons, potions, dice, treasure) to drag onto the board or click to add in view. Search gamer words like d20, hp or loot, and turn icons into map tokens and counters with Tile or Token in any colour. Made for game masters, RPG players, board-game designers and storytellers.",
     "icon": "icon.png",
     "main": "main.js",
