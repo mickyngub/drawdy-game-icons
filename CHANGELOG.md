@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- The panel now uses Drawdy's own colours and font, with a more compact header so more icons fit
+- Plain, Tile and Token show the selected style in grey instead of lime
+- A shorter search hint that is no longer cut off
+
 ## 1.0.0
 
 First public release
